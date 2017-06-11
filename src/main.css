@@ -23,6 +23,7 @@ h2 {
 p, ul {
 	list-style: none;
 	line-height: 25px;
+	padding: 0;
 }
 
 .container {
@@ -60,6 +61,27 @@ p, ul {
 	text-align: right;
 }
 
+#brands h2 {
+	color: #3E492A;
+	margin-top: 80px;
+	text-align: center;
+}
+
+#logos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#logos li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	width: 250px;
+}
+
 .computer {
 	background-image: url('assets/mac.png');
 	background-size: cover;
@@ -82,4 +104,71 @@ p, ul {
 	background-color: #FFFFFF;
 	height: 284px;
 	width: 1px;
+}
+
+/* Logos */
+
+.logo {
+	background-size: cover;
+	display: block;
+}
+
+.bet {
+	background-image: url('assets/logos/greyscale/bet.png');
+	height: 38px;
+	width: 119px;
+}
+
+.coca-cola {
+	background-image: url('assets/logos/greyscale/coca-cola.png');
+	height: 47px;
+	width: 144px;
+}
+
+.espn {
+	background-image: url('assets/logos/greyscale/espn.png');
+	height: 37px;
+	width: 143px;
+}
+
+.fossil {
+	background-image: url('assets/logos/greyscale/fossil.png');
+	height: 51px;
+	width: 143px;
+}
+
+.hallmark {
+	background-image: url('assets/logos/greyscale/hallmark.png');
+	height: 82px;
+	width: 154px;
+}
+
+.medical-center {
+	background-image: url('assets/logos/greyscale/medical-center.png');
+	height: 48px;
+	width: 208px;
+}
+
+.own {
+	background-image: url('assets/logos/greyscale/own.png');
+	height: 61px;
+	width: 142px;
+}
+
+.qdoba {
+	background-image: url('assets/logos/greyscale/qdoba.png');
+	height: 36px;
+	width: 183px;
+}
+
+.tre {
+	background-image: url('assets/logos/greyscale/tre.png');
+	height: 71px;
+	width: 107px;
+}
+
+.uta {
+	background-image: url('assets/logos/greyscale/uta.png');
+	height: 52px;
+	width: 163px;
 }
