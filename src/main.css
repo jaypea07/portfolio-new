@@ -2,14 +2,26 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+h1, h2 {
+	font-family: 'Bitter', serif;
+	font-weight: normal;
 }
 
 h1 {
-	color: white;
-	font-family: 'Bitter', serif;
 	font-size: 36px;
-	font-weight: normal;
 	padding-top: 80px;
+}
+
+h2 {
+	margin: 28px 0 50px;
+}
+
+ul {
+	list-style: none;
 }
 
 .container {
@@ -26,4 +38,47 @@ h1 {
 
 #splash .highlight {
 	color: #E88A05;
+}
+
+#intro {
+	background-color: #888F78;
+	padding: 80px 0;
+}
+
+#intro .container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#intro section {
+	width: 340px;
+}
+
+#skills {
+	text-align: right;
+}
+
+.computer {
+	background-image: url('assets/mac.png');
+	background-size: cover;
+	display: block;
+	float: left;
+	height: 88px;
+	width: 101px;
+}
+
+.fire {
+	background-image: url('assets/fire.png');
+	background-size: cover;
+	display: block;
+	float: right;
+	height: 88px;
+	width: 60px;
+}
+
+.vertical-line {
+	background-color: #FFFFFF;
+	height: 284px;
+	width: 1px;
 }
