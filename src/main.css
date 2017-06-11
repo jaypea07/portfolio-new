@@ -20,8 +20,9 @@ h2 {
 	margin: 28px 0 50px;
 }
 
-ul {
+p, ul {
 	list-style: none;
+	line-height: 25px;
 }
 
 .container {
