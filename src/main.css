@@ -33,6 +33,13 @@ p, ul {
 	margin: 0 auto;
 }
 
+/* Tablet */
+@media (max-width: 1023px) {
+	.container {
+		width: 710px;
+	}
+}
+
 
 
 /* SPLASH SECTION */
@@ -93,6 +100,38 @@ p, ul {
 	background-color: #FFFFFF;
 	height: 284px;
 	width: 1px;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+	#intro .container {
+		flex-direction: column-reverse;
+	}
+
+	#intro section {
+		margin: 0 auto;
+		text-align: left;
+		width: 590px;
+	}
+
+	.fire {
+		float: left;
+		margin-left: 22px;
+	}
+
+	#intro h2 {
+		margin: -5px 0 10px 140px;
+	}
+
+	#intro p,
+	#intro ul {
+		margin-left: 140px;
+	}
+
+	.vertical-line {
+		background-color: transparent;
+		height: 80px;
+	}
 }
 
 
@@ -228,7 +267,7 @@ button span {
 	position: relative;
 }
 
-footer .container {
+footer ul {
 	text-align: center;
 }
 
@@ -280,4 +319,31 @@ footer a {
 
 footer a:hover, footer a:active {
 	text-decoration: underline;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+	footer .container {
+		align-items: flex-end;
+		display: flex;
+		justify-content: space-between;
+		width: 80%;
+	}
+
+	footer ul {
+		margin: 0;
+		text-align: left;
+		width: 300px;
+	}
+
+	footer li {
+		display: block;
+		padding-left: 0;
+	}
+
+	button {
+		height: 60px;
+		margin: 0;
+		order: 2;
+	}
 }
