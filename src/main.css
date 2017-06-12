@@ -509,6 +509,10 @@ footer a:hover, footer a:active {
 		padding-left: 0;
 	}
 
+	footer .container > a {
+		order: 2;
+	}
+
 	button {
 		height: 60px;
 		margin: 0;
