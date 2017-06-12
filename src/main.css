@@ -280,6 +280,9 @@ p, ul {
 .logo {
 	background-size: cover;
 	display: block;
+	-webkit-transition: background-image 100ms ease-out 100ms;
+	-moz-transition: background-image 100ms ease-out 100ms;
+	transition: background-image 100ms ease-out 100ms;
 }
 
 .bet {
@@ -288,10 +291,18 @@ p, ul {
 	width: 119px;
 }
 
+.bet:hover {
+	background-image: url('assets/logos/color/bet.png');
+}
+
 .coca-cola {
 	background-image: url('assets/logos/greyscale/coca-cola.png');
 	height: 47px;
 	width: 144px;
+}
+
+.coca-cola:hover {
+	background-image: url('assets/logos/color/coca-cola.png');
 }
 
 .espn {
@@ -300,10 +311,18 @@ p, ul {
 	width: 143px;
 }
 
+.espn:hover {
+	background-image: url('assets/logos/color/espn.png');
+}
+
 .fossil {
 	background-image: url('assets/logos/greyscale/fossil.png');
 	height: 51px;
 	width: 143px;
+}
+
+.fossil:hover {
+	background-image: url('assets/logos/color/fossil.png');
 }
 
 .hallmark {
@@ -312,10 +331,18 @@ p, ul {
 	width: 154px;
 }
 
+.hallmark:hover {
+	background-image: url('assets/logos/color/hallmark.png');
+}
+
 .medical-center {
 	background-image: url('assets/logos/greyscale/medical-center.png');
 	height: 48px;
 	width: 208px;
+}
+
+.medical-center:hover {
+	background-image: url('assets/logos/color/medical-center.png');
 }
 
 .own {
@@ -324,10 +351,18 @@ p, ul {
 	width: 142px;
 }
 
+.own:hover {
+	background-image: url('assets/logos/color/own.png');
+}
+
 .qdoba {
 	background-image: url('assets/logos/greyscale/qdoba.png');
 	height: 36px;
 	width: 183px;
+}
+
+.qdoba:hover {
+	background-image: url('assets/logos/color/qdoba.png');
 }
 
 .tre {
@@ -336,10 +371,18 @@ p, ul {
 	width: 107px;
 }
 
+.tre:hover {
+	background-image: url('assets/logos/color/tre.png');
+}
+
 .uta {
 	background-image: url('assets/logos/greyscale/uta.png');
 	height: 52px;
 	width: 163px;
+}
+
+.uta:hover {
+	background-image: url('assets/logos/color/uta.png');
 }
 
 /* Mobile */
