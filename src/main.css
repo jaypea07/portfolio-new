@@ -338,6 +338,7 @@ footer a:hover, footer a:active {
 
 	footer li {
 		display: block;
+		margin: 5px 0;
 		padding-left: 0;
 	}
 
