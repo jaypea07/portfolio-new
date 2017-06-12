@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+	font-size: 24px;
 	margin: 28px 0 50px;
 }
 
@@ -40,6 +41,18 @@ p, ul {
 	}
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+	h1, h2 {
+		font-size: 22px;
+	}
+
+	.container {
+		margin: 0 50px;
+		width: auto;
+	}
+}
+
 
 
 /* SPLASH SECTION */
@@ -53,6 +66,18 @@ p, ul {
 
 #splash .highlight {
 	color: #E88A05;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+	#splash {
+		background-position: bottom right;
+		height: 455px;
+	}
+
+	h1 {
+		padding-top: 50px;
+	}
 }
 
 
@@ -134,6 +159,36 @@ p, ul {
 	}
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+	#intro section {
+		margin: 0;
+		width: auto;
+	}
+
+	.fire,
+	.computer {
+		float: none;
+		height: 48px;
+		margin: 0 auto;
+		width: 33px;
+	}
+
+	.computer {
+		width: 55px;
+	}
+
+	#intro h2 {
+		margin: 15px 0 30px;
+		text-align: center;
+	}
+	
+	#intro p,
+	#intro ul {
+		margin-left: 0;
+	}
+}
+
 
 
 /* WORK SECTION */
@@ -152,9 +207,9 @@ p, ul {
 }
 
 #logos li {
+	align-items: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	height: 150px;
 	width: 250px;
 }
@@ -224,6 +279,12 @@ p, ul {
 	width: 163px;
 }
 
+/* Mobile */
+@media (max-width: 767px) {
+	#brands h2 {
+		margin-bottom: 40px;
+	}
+}
 
 
 /* FOOTER SECTION */
@@ -346,5 +407,22 @@ footer a:hover, footer a:active {
 		height: 60px;
 		margin: 0;
 		order: 2;
+	}
+}
+
+/* Mobile */
+@media (max-width: 670px) {
+	footer .container {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	footer ul {
+		width: 260px;
+	}
+
+	button {
+		margin: 50px 0 0;
+		width: 260px
 	}
 }
