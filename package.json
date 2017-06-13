@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Jessica Patzer.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jaypea07/portfolio-new.git",
+  "author": "Jessica Patzer <jessica.patzer@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jaypea07/portfolio-new/issues"
+  },
+  "homepage": "https://github.com/jaypea07/portfolio-new#readme",
+  "devDependencies": {
+    "clean-css": "^4.1.3"
+  }
+}
