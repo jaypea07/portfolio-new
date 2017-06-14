@@ -12,11 +12,11 @@ fs.removeSync(DIST);
 fs.mkdirSync(DIST);
 
 // Copies HTML & CSS
-fs.copySync(`./${SRC}/${INDEX}`, `./${DIST}/${INDEX}`);
-fs.readFile(`./${SRC}/${CSS}`, 'UTF8').then(content => {
+fs.copySync(`${SRC}/${INDEX}`, `${DIST}/${INDEX}`);
+fs.readFile(`${SRC}/${CSS}`, 'UTF8').then(content => {
 	let output = new CleanCSS().minify(content);
-	fs.writeFile(`./${DIST}/${CSS}`, output.styles); 
+	fs.writeFile(`${DIST}/${CSS}`, output.styles); 
 });
 
 // Copies all assets
-fs.copySync(`./${SRC}/${ASSETS}`, `./${DIST}/${ASSETS}`);
+fs.copySync(`${SRC}/${ASSETS}`, `${DIST}/${ASSETS}`);
