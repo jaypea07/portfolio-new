@@ -35,7 +35,8 @@ p, ul {
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1024px),
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
 	.container {
 		width: 710px;
 	}
@@ -180,7 +181,8 @@ p, ul {
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1024px),
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 	#intro .container {
 		flex-direction: column-reverse;
 	}
@@ -489,7 +491,8 @@ footer a:hover, footer a:active {
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1024px),
+(min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
 	footer .container {
 		align-items: flex-end;
 		display: flex;
