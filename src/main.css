@@ -155,7 +155,7 @@ p, ul {
 
 .vertical-line {
 	background-color: #FFFFFF;
-	height: 284px;
+	height: 320px;
 	width: 1px;
 }
 
@@ -337,6 +337,16 @@ p, ul {
 	background-image: url('assets/logos/color/hallmark.png');
 }
 
+.intuit {
+	background-image: url('assets/logos/greyscale/intuit.png');
+	height: 31px;
+	width: 160px;
+}
+
+.intuit:hover {
+	background-image: url('assets/logos/color/intuit.png');
+}
+
 .medical-center {
 	background-image: url('assets/logos/greyscale/medical-center.png');
 	height: 48px;
@@ -367,6 +377,16 @@ p, ul {
 	background-image: url('assets/logos/color/qdoba.png');
 }
 
+.quickbooks {
+	background-image: url('assets/logos/greyscale/quickbooks.png');
+	height: 35px;
+	width: 188px;
+}
+
+.quickbooks:hover {
+	background-image: url('assets/logos/color/quickbooks.png');
+}
+
 .tre {
 	background-image: url('assets/logos/greyscale/tre.png');
 	height: 71px;
@@ -375,6 +395,16 @@ p, ul {
 
 .tre:hover {
 	background-image: url('assets/logos/color/tre.png');
+}
+
+.turbotax {
+	background-image: url('assets/logos/greyscale/turbotax.png');
+	height: 35px;
+	width: 158px;
+}
+
+.turbotax:hover {
+	background-image: url('assets/logos/color/turbotax.png');
 }
 
 .uta {
